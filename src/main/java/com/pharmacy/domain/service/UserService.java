@@ -1,5 +1,6 @@
 package com.pharmacy.domain.service;
 
+import com.pharmacy.domain.entities.Remedy;
 import com.pharmacy.domain.entities.User;
 import com.pharmacy.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
