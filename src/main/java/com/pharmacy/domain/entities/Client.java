@@ -4,13 +4,14 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 
 @Data
-public class User {
+public class Client {
 
     @Id
     private String CPF;
+    @Id
+    private String cns;
 
     private String nome;
-    private String cns;
     private String dataNascimento;
     private String endereco;
     private String email;
@@ -18,10 +19,10 @@ public class User {
     private String cep;
     private String cidade;
 
-    public User() {
+    public Client() {
     }
 
-    public User(String CPF, String nome, String cns, String dataNascimento, String endereco, String email, String telefone, String cep, String cidade) {
+    public Client(String CPF, String nome, String cns, String dataNascimento, String endereco, String email, String telefone, String cep, String cidade) {
         this.CPF = CPF;
         this.nome = nome;
         this.cns = cns;

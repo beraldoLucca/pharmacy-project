@@ -13,4 +13,5 @@ public class Remedy {
     @Id
     private String codigo;
     private String nome;
+    private Integer quantidade;
 }
